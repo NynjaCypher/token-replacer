@@ -2,4 +2,4 @@
 Token replacer for configuration pipeline
 
 **TODO**
-- [] Add usage examples
+* [ ] Add usage examples
