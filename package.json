@@ -1,0 +1,24 @@
+{
+  "name": "token-replacer",
+  "version": "1.0.0",
+  "description": "Token replacer for configuration pipeline",
+  "author": "Jamie Campbell (NynjaCypher) <jae.campbell@btinternet.com>",
+  "main": "main.js",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+  	"start": "node main.js"
+  },
+  "dependencies": {
+    "fs-extra": "^4.0.0",
+    "lodash": "^4.17.4",
+    "yamljs": "^0.3.0",
+    "glob": "^7.1.2",
+    "properties-parser": "^0.3.1"
+  },
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/NynjaCypher/token-replacer.git"
+  },
+  "keywords": []
+}
