@@ -51,7 +51,7 @@ for(g in targets) {
 					env.push(process.env[e])
 			}
 		}else Object.assign(env, process.env)
-	}
+	} // else statement should probably go here, as it makes more sense, although it'll be used more often above
 	
 	let vars = Object.assign({}, env, globals, provided) // final env collection
 	
