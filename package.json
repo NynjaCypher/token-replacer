@@ -5,7 +5,7 @@
   "author": "Jamie Campbell (NynjaCypher) <jae.campbell@btinternet.com>",
   "main": "main.js",
   "license": "MIT",
-  "main": "main.js",
+  "keywords": [],
   "scripts": {
   	"start": "node main.js"
   },
@@ -19,6 +19,5 @@
   "repository": {
   	"type": "git",
   	"url": "https://github.com/NynjaCypher/token-replacer.git"
-  },
-  "keywords": []
+  }
 }
