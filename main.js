@@ -31,8 +31,14 @@ for(g in targets) {
 		provided = {}
 	for(k in provided) {
 		if(k == 'files' && _.isArray(provided[k])) {
-			for(f in provided[k].files) {
-				Object.assign(provided, propertiesParser.parse(f))
+			provided.remove(k)
+			for(g in provided[k].files) {
+				glob(g, { cwd: '/' }, (err, files) => {
+					if(err)
+						throw err
+						
+					files.forEach((file) => { Object.assign(provided, propertiesParser.parse(file)) })
+				})
 			}
 		}
 	}
